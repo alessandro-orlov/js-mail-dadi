@@ -18,9 +18,9 @@ for ( var i = 0; i < listaEmail.length; i++ ) {
 
 //Da accesso se l'email utente è presente sulla lista
 if(specialMail) {
-  console.log('Access granted');
+  alert('Access granted');
 } else {
-  console.log('You shall not pass!')
+  alert('You shall not pass!')
 }
 
 // FINE ESERCIZIO 1
